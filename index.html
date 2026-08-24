@@ -1,323 +1,170 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>JX High Tech | Innovations & Digital Solutions</title>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background: #07111f;
-      color: white;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #0b1728;
-      padding: 20px 8%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    .logo {
-      font-size: 26px;
-      font-weight: bold;
-      color: #f5c542;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 20px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #f5c542;
-    }
-
-    .hero {
-      min-height: 90vh;
-      display: flex;
-      align-items: center;
-      padding: 60px 8%;
-      background: linear-gradient(135deg, #07111f, #102b4a);
-    }
-
-    .hero-content {
-      max-width: 700px;
-    }
-
-    .hero h1 {
-      font-size: 50px;
-      margin-bottom: 20px;
-    }
-
-    .hero h1 span {
-      color: #f5c542;
-    }
-
-    .hero p {
-      font-size: 19px;
-      color: #d5dce5;
-      margin-bottom: 30px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 14px 25px;
-      background: #f5c542;
-      color: #07111f;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      margin-right: 10px;
-      margin-bottom: 10px;
-    }
-
-    .btn:hover {
-      opacity: 0.85;
-    }
-
-    .whatsapp {
-      background: #25D366;
-      color: white;
-    }
-
-    section {
-      padding: 70px 8%;
-    }
-
-    .section-title {
-      text-align: center;
-      font-size: 34px;
-      margin-bottom: 40px;
-      color: #f5c542;
-    }
-
-    .about {
-      text-align: center;
-      max-width: 800px;
-      margin: auto;
-      color: #d5dce5;
-      font-size: 18px;
-    }
-
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 25px;
-    }
-
-    .service-card {
-      background: #0b1728;
-      padding: 30px;
-      border-radius: 12px;
-      text-align: center;
-      border: 1px solid #183250;
-      transition: 0.3s;
-    }
-
-    .service-card:hover {
-      transform: translateY(-8px);
-      border-color: #f5c542;
-    }
-
-    .service-card h3 {
-      color: #f5c542;
-      margin-bottom: 15px;
-      font-size: 22px;
-    }
-
-    .service-card p {
-      color: #d5dce5;
-    }
-
-    .contact {
-      text-align: center;
-      background: #0b1728;
-    }
-
-    .contact p {
-      margin: 10px 0;
-      color: #d5dce5;
-      font-size: 17px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      background: #050c15;
-      color: #aab4c0;
-    }
-
-    @media (max-width: 700px) {
-      header {
-        flex-direction: column;
-        gap: 15px;
-      }
-
-      nav a {
-        margin: 0 7px;
-        font-size: 14px;
-      }
-
-      .hero h1 {
-        font-size: 38px;
-      }
-
-      .hero p {
-        font-size: 17px;
-      }
-    }
-  </style>
+    <title>JX High Tech | Technology Solutions</title>
 </head>
 
 <body>
 
-  <header>
-    <div class="logo">JX High Tech</div>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2>JX High Tech</h2>
 
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <section class="hero" id="home">
-    <div class="hero-content">
 
-      <h1>
-        Welcome to <span>JX High Tech</span>
-      </h1>
+    <!-- Home / Hero Section -->
+    <section id="home">
 
-      <p>
-        Innovative technology solutions, web development and digital services
-        designed to help businesses grow in the modern digital world.
-      </p>
+        <h1>Innovative Technology Solutions</h1>
 
-      <a href="#services" class="btn">Our Services</a>
-
-      <a
-        href="https://wa.me/260963529696"
-        class="btn whatsapp"
-        target="_blank"
-      >
-        WhatsApp Us
-      </a>
-
-    </div>
-  </section>
-
-  <section id="about">
-    <h2 class="section-title">About JX High Tech</h2>
-
-    <div class="about">
-      <p>
-        JX High Tech is a technology and digital services company based in
-        Kitwe, Zambia. We provide modern technology solutions to individuals,
-        businesses and organizations.
-      </p>
-
-      <br>
-
-      <p>
-        Our goal is to make technology simple, accessible and useful for
-        everyone.
-      </p>
-    </div>
-  </section>
-
-  <section id="services">
-
-    <h2 class="section-title">Our Services</h2>
-
-    <div class="services">
-
-      <div class="service-card">
-        <h3>Web Development</h3>
         <p>
-          Modern, responsive and professional websites for businesses,
-          organizations and individuals.
+            Welcome to JX High Tech — Innovation, Technology Solutions,
+            Web Development and Digital Services designed to help businesses
+            grow in the modern digital world.
         </p>
-      </div>
 
-      <div class="service-card">
-        <h3>Technology Solutions</h3>
+        <a href="https://wa.me/260963529696">
+            Chat with us on WhatsApp
+        </a>
+
+        <a href="#services">
+            Our Services
+        </a>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+
+        <h2>About JX High Tech</h2>
+
         <p>
-          Practical technology solutions designed to improve your business
-          and make your work easier.
+            JX High Tech is a technology and digital solutions company
+            based in Kitwe, Zambia.
         </p>
-      </div>
 
-      <div class="service-card">
-        <h3>Digital Services</h3>
         <p>
-          Digital solutions that help businesses establish and grow their
-          online presence.
+            We help individuals and businesses use modern technology
+            to build, improve and grow their digital presence.
         </p>
-      </div>
 
-      <div class="service-card">
-        <h3>IT Support</h3>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services">
+
+        <h2>Our Services</h2>
+
+        <div>
+
+            <h3>Web Development</h3>
+            <p>
+                Modern and responsive websites for businesses,
+                organizations and individuals.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Technology Solutions</h3>
+            <p>
+                Practical technology solutions designed to meet
+                your business needs.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Digital Services</h3>
+            <p>
+                Digital solutions that help businesses improve
+                their online presence and reach more customers.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Website Maintenance</h3>
+            <p>
+                Updates, improvements and ongoing support for
+                your website.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+
+        <h2>Our Portfolio</h2>
+
         <p>
-          Technology assistance and support for computers, websites and
-          digital systems.
+            Our projects and digital solutions will be displayed here.
         </p>
-      </div>
 
-    </div>
-  </section>
+    </section>
 
-  <section class="contact" id="contact">
 
-    <h2 class="section-title">Contact Us</h2>
+    <!-- Contact Section -->
+    <section id="contact">
 
-    <p><strong>Location:</strong> Kitwe, Zambia</p>
+        <h2>Contact JX High Tech</h2>
 
-    <p>
-      <strong>Email:</strong>
-      mathiasjacksonjay@gmail.com
-    </p>
+        <p><strong>Location:</strong> Kitwe, Zambia</p>
 
-    <p>
-      <strong>WhatsApp:</strong>
-      +260 96 352 9696
-    </p>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:mathiasjacksonjay@gmail.com">
+                mathiasjacksonjay@gmail.com
+            </a>
+        </p>
 
-    <br>
+        <p>
+            <strong>WhatsApp:</strong>
+            <a href="https://wa.me/260963529696">
+                +260 96 352 9696
+            </a>
+        </p>
 
-    <a
-      href="https://wa.me/260963529696"
-      class="btn whatsapp"
-      target="_blank"
-    >
-      Chat With Us on WhatsApp
-    </a>
+        <br>
 
-  </section>
+        <a href="https://wa.me/260963529696">
+            Chat with JX High Tech on WhatsApp
+        </a>
 
-  <footer>
-    <p>
-      © 2026 JX High Tech. All Rights Reserved.
-    </p>
-  </footer>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 JX High Tech. All Rights Reserved.
+        </p>
+
+        <p>
+            Technology Solutions | Web Development | Digital Services
+        </p>
+
+    </footer>
 
 </body>
 </html>
