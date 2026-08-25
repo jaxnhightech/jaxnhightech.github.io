@@ -1,170 +1,350 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>JX High Tech | Technology Solutions</title>
+    <title>JX High-Tech | Technology & Digital Solutions</title>
+
+    <!-- Part 2 will add the modern dark-blue CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- ================= HEADER ================= -->
     <header>
-        <nav>
-            <h2>JX High Tech</h2>
+        <div class="logo">
+            JX <span>HIGH-TECH</span>
+        </div>
 
+        <nav>
             <a href="#home">Home</a>
-            <a href="#about">About</a>
+            <a href="#phones">Phones</a>
+            <a href="#laptops">Laptops</a>
             <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#accessories">Accessories</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
 
-    <!-- Home / Hero Section -->
-    <section id="home">
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero">
 
-        <h1>Innovative Technology Solutions</h1>
+        <div class="hero-text">
+            <p class="small-title">WELCOME TO JX HIGH-TECH</p>
 
-        <p>
-            Welcome to JX High Tech — Innovation, Technology Solutions,
-            Web Development and Digital Services designed to help businesses
-            grow in the modern digital world.
-        </p>
+            <h1>
+                Technology for a
+                <span>Modern World.</span>
+            </h1>
 
-        <a href="https://wa.me/260963529696">
-            Chat with us on WhatsApp
-        </a>
-
-        <a href="#services">
-            Our Services
-        </a>
-
-    </section>
-
-
-    <!-- About Section -->
-    <section id="about">
-
-        <h2>About JX High Tech</h2>
-
-        <p>
-            JX High Tech is a technology and digital solutions company
-            based in Kitwe, Zambia.
-        </p>
-
-        <p>
-            We help individuals and businesses use modern technology
-            to build, improve and grow their digital presence.
-        </p>
-
-    </section>
-
-
-    <!-- Services Section -->
-    <section id="services">
-
-        <h2>Our Services</h2>
-
-        <div>
-
-            <h3>Web Development</h3>
             <p>
-                Modern and responsive websites for businesses,
-                organizations and individuals.
+                Discover quality smartphones, laptops, gaming technology,
+                accessories and digital solutions from JX High-Tech.
             </p>
 
+            <div class="hero-buttons">
+                <a href="#phones" class="btn">Explore Products</a>
+
+                <a href="#contact" class="btn secondary">
+                    Contact Us
+                </a>
+            </div>
         </div>
 
-        <div>
-
-            <h3>Technology Solutions</h3>
-            <p>
-                Practical technology solutions designed to meet
-                your business needs.
-            </p>
-
-        </div>
-
-        <div>
-
-            <h3>Digital Services</h3>
-            <p>
-                Digital solutions that help businesses improve
-                their online presence and reach more customers.
-            </p>
-
-        </div>
-
-        <div>
-
-            <h3>Website Maintenance</h3>
-            <p>
-                Updates, improvements and ongoing support for
-                your website.
-            </p>
-
+        <!-- Hero image will be added in Part 2 -->
+        <div class="hero-image">
+            <img src="images/hero-phone.png"
+                 alt="JX High-Tech smartphone">
         </div>
 
     </section>
 
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
+    <!-- ================= PHONES ================= -->
+    <section id="phones" class="products">
 
-        <h2>Our Portfolio</h2>
+        <div class="section-title">
+            <p>SMARTPHONES</p>
+            <h2>Latest iPhones</h2>
+        </div>
 
-        <p>
-            Our projects and digital solutions will be displayed here.
-        </p>
+        <div class="product-grid">
+
+            <!-- iPhone 16 -->
+            <div class="product-card">
+                <img src="images/iphone16.png"
+                     alt="iPhone 16">
+
+                <h3>iPhone 16</h3>
+
+                <p>
+                    Modern performance, powerful camera
+                    and premium design.
+                </p>
+
+                <a href="#contact" class="product-btn">
+                    Enquire Now
+                </a>
+            </div>
+
+
+            <!-- iPhone 14 -->
+            <div class="product-card">
+                <img src="images/iphone14.png"
+                     alt="iPhone 14">
+
+                <h3>iPhone 14</h3>
+
+                <p>
+                    Powerful performance with a beautiful
+                    modern design.
+                </p>
+
+                <a href="#contact" class="product-btn">
+                    Enquire Now
+                </a>
+            </div>
+
+
+            <!-- iPhone 12 -->
+            <div class="product-card">
+                <img src="images/iphone12.png"
+                     alt="iPhone 12">
+
+                <h3>iPhone 12</h3>
+
+                <p>
+                    A reliable smartphone with excellent
+                    performance.
+                </p>
+
+                <a href="#contact" class="product-btn">
+                    Enquire Now
+                </a>
+            </div>
+
+
+            <!-- iPhone XR -->
+            <div class="product-card">
+                <img src="images/iphonexr.png"
+                     alt="iPhone XR">
+
+                <h3>iPhone XR</h3>
+
+                <p>
+                    Great everyday performance and
+                    premium Apple design.
+                </p>
+
+                <a href="#contact" class="product-btn">
+                    Enquire Now
+                </a>
+            </div>
+
+        </div>
 
     </section>
 
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <!-- ================= LAPTOPS ================= -->
+    <section id="laptops" class="products">
 
-        <h2>Contact JX High Tech</h2>
+        <div class="section-title">
+            <p>COMPUTING</p>
+            <h2>Laptops & Gaming</h2>
+        </div>
 
-        <p><strong>Location:</strong> Kitwe, Zambia</p>
+        <div class="product-grid">
 
-        <p>
-            <strong>Email:</strong>
-            <a href="mailto:mathiasjacksonjay@gmail.com">
-                mathiasjacksonjay@gmail.com
+            <!-- Gaming Laptop -->
+            <div class="product-card">
+                <img src="images/gaming-laptop.png"
+                     alt="Gaming laptop">
+
+                <h3>Gaming Laptops</h3>
+
+                <p>
+                    Powerful machines built for gaming,
+                    work and entertainment.
+                </p>
+
+                <a href="#contact" class="product-btn">
+                    Enquire Now
+                </a>
+            </div>
+
+
+            <!-- Business Laptop -->
+            <div class="product-card">
+                <img src="images/laptop.png"
+                     alt="Laptop">
+
+                <h3>Modern Laptops</h3>
+
+                <p>
+                    Reliable laptops for business,
+                    school and everyday use.
+                </p>
+
+                <a href="#contact" class="product-btn">
+                    Enquire Now
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="services">
+
+        <div class="section-title">
+            <p>WHAT WE DO</p>
+            <h2>Our Technology Services</h2>
+        </div>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+
+                <h3>Smartphones</h3>
+
+                <p>
+                    Quality smartphones and mobile
+                    technology.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+
+                <h3>Laptops & Gaming</h3>
+
+                <p>
+                    Laptops, gaming machines and
+                    computer technology.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+
+                <h3>Technology Solutions</h3>
+
+                <p>
+                    Technology support, repairs and
+                    digital solutions.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <div class="service-icon">🎧</div>
+
+                <h3>Accessories</h3>
+
+                <p>
+                    Accessories for phones, computers
+                    and other technology.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ACCESSORIES ================= -->
+    <section id="accessories" class="accessories">
+
+        <div class="section-title">
+            <p>TECH ACCESSORIES</p>
+            <h2>Everything You Need</h2>
+        </div>
+
+        <p class="section-description">
+            Find accessories for your smartphones,
+            laptops, gaming equipment and other
+            technology products.
+        </p>
+
+        <div class="accessory-list">
+
+            <span>Chargers</span>
+            <span>Phone Cases</span>
+            <span>Earphones</span>
+            <span>Power Banks</span>
+            <span>Computer Accessories</span>
+            <span>Gaming Accessories</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact">
+
+        <div class="contact-content">
+
+            <p class="small-title">GET IN TOUCH</p>
+
+            <h2>
+                Ready to upgrade
+                your technology?
+            </h2>
+
+            <p>
+                Contact JX High-Tech today for products,
+                technology solutions and accessories.
+            </p>
+
+            <!-- Replace the number with your WhatsApp number -->
+            <a
+                href="https://wa.me/YOURNUMBER"
+                class="whatsapp-btn"
+                target="_blank">
+
+                💬 Chat With Us on WhatsApp
+
             </a>
-        </p>
 
-        <p>
-            <strong>WhatsApp:</strong>
-            <a href="https://wa.me/260963529696">
-                +260 96 352 9696
-            </a>
-        </p>
+            <p class="location">
+                📍 Kitwe, Zambia
+            </p>
 
-        <br>
-
-        <a href="https://wa.me/260963529696">
-            Chat with JX High Tech on WhatsApp
-        </a>
+        </div>
 
     </section>
 
 
-    <!-- Footer -->
+    <!-- ================= FOOTER ================= -->
     <footer>
 
+        <div class="footer-logo">
+            JX HIGH-TECH
+        </div>
+
         <p>
-            © 2026 JX High Tech. All Rights Reserved.
+            Technology • Innovation • Digital Solutions
         </p>
 
         <p>
-            Technology Solutions | Web Development | Digital Services
+            © 2026 JX High-Tech. All Rights Reserved.
         </p>
 
     </footer>
+
+
+    <!-- Part 3 will add JavaScript here -->
 
 </body>
 </html>
